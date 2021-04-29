@@ -12,21 +12,20 @@ export default function Navigation() {
       <div className='col-start-2 col-end-3'>
         <Link href='/about'>ABOUT</Link>
       </div>
-      <div classname='col-start-3 col-end-4'>
+      <div className='col-start-3 col-end-4'>
         <Link href='/events'>EVENTS</Link>
       </div>
-
       <div className='col-start-4 col-end-10'>
         <Link href='/'>
           <div>
-            <span className={`align-middle text-lg ${styles.logotext}`}>GENDO</span>
+            <span className={`align-middle text-xl ${styles.logotext}`}>GENDO</span>
             <Image
                 src='/../public/images/GendoCrest.png'
                 alt='Gendo Taiko logo'
                 width='10%'
                 height='10%'
             />
-            <span className={`align-middle text-lg ${styles.logotext}`}>TAIKO</span>
+            <span className={`align-middle text-xl ${styles.logotext}`}>TAIKO</span>
           </div>
         </Link>
       </div>

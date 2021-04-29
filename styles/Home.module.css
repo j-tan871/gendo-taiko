@@ -6,14 +6,13 @@
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-style: normal;
-    line-height: 55px;
     color: #ffffff;
+    background-color: #242424;
 }
 
 .bodytext {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-style: normal;
-    line-height: 27px;
     color: #ffffff;
 }
