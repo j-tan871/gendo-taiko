@@ -45,11 +45,11 @@ export default function Members() {
         <h1 className={`${styles.heading} my-5`}>PAST MEMBERS</h1>
         <div className='flex flex-wrap'>
           <PastGeneration generation='FOURTEENTH' characters='十四代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
-          <PastGeneration generation='THIRTEENTH' characters='十四代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
-          <PastGeneration generation='TWELFTH' characters='十四代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
-          <PastGeneration generation='ELEVENTH' characters='十四代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
-          <PastGeneration generation='TENTH' characters='十四代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
-          <PastGeneration generation='NINTH' characters='十四代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
+          <PastGeneration generation='THIRTEENTH' characters='十三代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
+          <PastGeneration generation='TWELFTH' characters='十二代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
+          <PastGeneration generation='ELEVENTH' characters='十一代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
+          <PastGeneration generation='TENTH' characters='十代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
+          <PastGeneration generation='NINTH' characters='九代目' names={['Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21', 'Kelvin Yang • Brown ‘21']} />
         </div>
       </div>
       </main>
