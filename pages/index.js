@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Gendo Taiko</title>
         <link rel="icon" href="/favicon.ico" />
@@ -130,6 +130,6 @@ export default function Home() {
       <footer>
         <Footer></Footer>
       </footer>
-    </div>
+    </>
   )
 }
