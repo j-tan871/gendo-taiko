@@ -37,7 +37,8 @@ export default function Home() {
           </div>
           <div className={`my-1 px-1 w-full overflow-hidden lg:my-6 lg:px-6 lg:w-1/3`}></div>
         </div>
-        <div className={`divide-y h-0.5`}></div>
+        <hr />
+        {/* <div className={`divide-y h-0.5`}></div> */}
         <div className={` ${styles.info} h-auto flex flex-wrap overflow-hidden lg:px-12`}>
           <div className='my-1 px-1 w-full overflow-hidden lg:my-6 lg:px-6 lg:w-1/2'>
             <div className='h-auto items-center m-5'>
