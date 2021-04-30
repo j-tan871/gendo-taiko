@@ -22,9 +22,9 @@ export default function About() {
               <p className={styles.bodytext}>Today, Gendo Taiko continues to build and acquire new drums, expand its repertoire by composing new songs, and collaborate with the greater Taiko community by hosting and participating in annual conferences and invitationals. Handa-san and Nambu-san gave the team the name Gendo (幻道) during their stay in 2006. Gendo, loosely translating to “path of free imagination,” represents the journeys taken by members in years past, and the experience of creative inspiration we hope to pass down to future members and audiences in the years to come.</p>
             </div>
             <div className={`w-full overflow-hidden p-12 lg:w-1/3 lg:py-20`}>
-              <div className={`text-5xl mb-3 ${styles.character}`}>幻道太鼓</div>
+              <div className={`text-4xl lg:text-5xl mb-3 ${styles.character}`}>幻道太鼓</div>
               <p className={styles.bodytext}>gendō taiko</p>
-              <div className={`text-5xl mb-3 mt-12 ${styles.character}`}>和太鼓幻創</div>
+              <div className={`text-4xl lg:text-4xl mb-3 mt-12 ${styles.character}`}>和太鼓幻創</div>
               <p className={styles.bodytext}>wadaiko gensō</p>
             </div>
           </div>
