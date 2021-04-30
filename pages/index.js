@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Navigation></Navigation>
       <main>
-        <div className='h-auto md:h-screen relative'>
+        <div className='h-auto md:h-screen relative bg-black'>
           <Image
             src='/../public/images/cover.jpg'
             alt='miyake'
