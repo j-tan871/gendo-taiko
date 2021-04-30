@@ -24,7 +24,7 @@ export default function About() {
             <div className={`w-full overflow-hidden p-12 lg:w-1/3 lg:py-20`}>
               <div className={`text-4xl lg:text-5xl mb-3 ${styles.character}`}>幻道太鼓</div>
               <p className={styles.bodytext}>gendō taiko</p>
-              <div className={`text-4xl lg:text-4xl mb-3 mt-12 ${styles.character}`}>和太鼓幻創</div>
+              <div className={`text-4xl lg:text-5xl mb-3 mt-12 ${styles.character}`}>和太鼓幻創</div>
               <p className={styles.bodytext}>wadaiko gensō</p>
             </div>
           </div>
