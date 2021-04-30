@@ -1,20 +1,28 @@
+<<<<<<< HEAD
+=======
 @import url("https://use.typekit.net/gkg5tdy.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
 
-.info {
+>>>>>>> 50cefbc52b5a3389c2cb5524d82157b76e7936ee
+.container {
     background-color: #242424;
 }
 
-.subheading {
+.heading {
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-style: normal;
     color: #ffffff;
 }
 
 .bodytext {
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
+    color: #ffffff;
+}
+
+.character {
+    font-family: 'Noto Serif JP', serif;
     color: #ffffff;
 }
