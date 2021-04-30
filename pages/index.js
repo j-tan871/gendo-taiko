@@ -1,64 +1,134 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+
+import Navigation from '../components/Navbar';
+import Footer from '../components/Footer';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Gendo Taiko</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <Navigation></Navigation>
+      <main>
+        <div className='h-auto md:h-screen relative'>
+          <Image
+            src='/../public/images/cover.jpg'
+            alt='miyake'
+            width={1080}
+            height={720}
+            className='visible md:invisible'
+          />
+          <Image
+            src='/../public/images/cover.jpg'
+            alt='miyake'
+            layout='fill'
+            objectFit='cover'
+            className='invisible md:visible'
+          />
+        </div>
+        <div className={`h-auto flex flex-wrap px-5 lg:px-48 xl:px-48 pb-12 ${styles.info}`}>
+          <div className={`my-1 px-1 w-full overflow-hidden lg:my-6 lg:px-6 lg:w-2/3 xl:my-6 xl:px-6 xl:w-2/3`}>
+            <div className={`text-3xl my-5 ${styles.subheading}`}>Mission statement sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+            <div className={`text-base ${styles.bodytext}`}>Ullamcorper a lacus vestibulum sed arcu. Imperdiet proin fermentum leo vel orci porta. Bibendum arcu vitae elementum curabitur vitae nunc sed. See more photos and videos of our performances here.</div>
+          </div>
+          <div className={`my-1 px-1 w-full overflow-hidden lg:my-6 lg:px-6 lg:w-1/2 xl:my-6 xl:px-6 xl:w-1/2`}></div>
+        </div>
+        <div className={`divide-y h-0.5`}></div>
+        <div className={` ${styles.info} h-auto flex flex-wrap overflow-hidden lg:px-12 xl:px-12`}>
+          <div className='my-1 px-1 w-full overflow-hidden lg:my-6 lg:px-6 lg:w-1/2 xl:my-6 xl:px-6 xl:w-1/2'>
+            <div className='h-auto items-center m-5'>
+              <div class="flex flex-wrap overflow-hidden">
+                <div class="w-1/3 my-0.5 overflow-hidden">
+                  <Image 
+                    src='/../public/images/square.jpg'
+                    alt='instagram picture'
+                    width={500}
+                    height={475}
+                    className='object-contain'
+                  />
+                </div>
+                <div class="w-1/3 my-0.5 overflow-hidden">
+                  <Image 
+                    src='/../public/images/square.jpg'
+                    alt='instagram picture'
+                    width={500}
+                    height={475}
+                    className='object-contain'
+                  />
+                </div>
+                <div class="w-1/3 my-0.5 overflow-hidden">
+                  <Image 
+                    src='/../public/images/square.jpg'
+                    alt='instagram picture'
+                    width={500}
+                    height={475}
+                    className='object-contain'
+                  />
+                </div>
+                <div class="w-1/3 my-0.5 overflow-hidden">
+                  <Image 
+                    src='/../public/images/square.jpg'
+                    alt='instagram picture'
+                    width={500}
+                    height={475}
+                    className='object-contain'
+                  />
+                </div>
+                <div class="w-1/3 my-0.5 overflow-hidden">
+                  <Image 
+                    src='/../public/images/square.jpg'
+                    alt='instagram picture'
+                    width={500}
+                    height={475}
+                    className='object-contain'
+                  />
+                </div>
+                <div class="w-1/3 my-0.5 overflow-hidden">
+                  <Image 
+                    src='/../public/images/square.jpg'
+                    alt='instagram picture'
+                    width={500}
+                    height={475}
+                    className='object-contain'
+                  />
+                </div>
+              </div>
+            </div>
+            <div className='h-100 m-5 lg:m-12 xl-m-12'>
+              <div className={`text-3xl m-5 ${styles.subheading}`}>Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam.</div>
+              <div className={`text-base m-5 ${styles.bodytext}`}>Ullamcorper a lacus vestibulum sed arcu. Imperdiet proin fermentum leo vel orci porta. Bibendum arcu vitae elementum curabitur vitae nunc sed. See more photos and videos of our performances here.</div>
+            </div>
+            <div className='aspect-w-16 aspect-h-9 mx-5 lg:mx-12 xl:mx-12'>
+              <iframe src='https://www.youtube.com/embed/uBDabxR74IU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
+            </div>
+          </div>
+          <div className='my-1 w-full overflow-hidden lg:my-6 lg:px-6 lg:w-1/2 xl:my-6 xl:px-6 xl:w-1/2'>
+            <div className='h-auto m-5 lg:m-12 xl:m-12'>
+              <div className={`text-3xl m-5 ${styles.subheading}`}>We perform eget arcu dictum varius duis at consectetur</div>
+              <div className={`text-base m-5 ${styles.bodytext}`}>Eget arcu dictum varius duis at consectetur. Amet nisl suscipit adipiscing bibendum est ultricies. Learn more about our upcoming and past events.</div>
+            </div>
+            <div className='h-auto m-5 lg:m-12 xl:m-12'>
+              <Image
+                src='/../public/images/miyake_kelvmel.jpg'
+                alt='miyake'
+                width={750}
+                height={475}
+                className='object-contain'
+              />
+            </div>
+            <div className='sm:h-108 lg:h-64 xl:h-64 m-5 lg:m-12 xl:m-12'>
+              <div className={` text-3xl m-5 ${styles.subheading}`}>Gendo Taiko is made up of students who attend Brown University and the Rhode Island School of Design</div>
+              <div className={` text-base m-5 ${styles.bodytext}`}>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Learn more about our group’s history and  what taiko is all about here.</div>
+            </div>
+          </div>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+      <footer>
+        <Footer></Footer>
       </footer>
     </div>
   )
