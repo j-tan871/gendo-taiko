@@ -20,6 +20,7 @@ export default function Home() {
             alt='miyake'
             width={1080}
             height={720}
+            className='visible md:invisible'
           />
           <Image
             src='/../public/images/cover.jpg'
