@@ -10,7 +10,7 @@ export default function Events() {
   return (
     <>
       <Head>
-        <title>Gendo Taiko - About Us</title>
+        <title>Gendo Taiko - Events</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
