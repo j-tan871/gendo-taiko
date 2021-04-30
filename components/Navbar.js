@@ -5,7 +5,7 @@ import styles from './Navbar.module.css';
 
 export default function Navigation() {
   return (
-    <div className={`grid grid-cols-14 items-center text-center pl-3 pr-3 h-16 text-xs ${styles.navtext}`}>
+    <div className={`grid grid-cols-14 items-center text-center px-3 h-16 text-xs ${styles.navtext}`}>
       <div className='col-start-1 col-end-2'>
         <Link href='/'>HOME</Link>
       </div>
@@ -15,17 +15,19 @@ export default function Navigation() {
       <div className='col-start-3 col-end-4'>
         <Link href='/events'>EVENTS</Link>
       </div>
-      <div className='col-start-4 col-end-10'>
+      <div className='col-start-4 col-end-10 grid justify-items-center'>
         <Link href='/'>
-          <div>
-            <span className={`align-middle text-xl ${styles.logotext}`}>GENDO</span>
+          <div className='flex flex-column content-center items-center'>
+            <div className={`align-middle text-xl ${styles.logotext}`}>GENDO&nbsp;</div>
+            {/* <span className={`align-middle text-xl ${styles.logotext}`}>GENDO</span> */}
             <Image
-                src='/../public/images/GendoCrest.png'
-                alt='Gendo Taiko logo'
-                width='10%'
-                height='10%'
+              src='/images/GendoCrest.png'
+              alt='Gendo Taiko logo'
+              width='30%'
+              height='30%'
             />
-            <span className={`align-middle text-xl ${styles.logotext}`}>TAIKO</span>
+            <div className={`align-middle text-xl ${styles.logotext}`}>&nbsp;TAIKO</div>
+            {/* <span className={`align-middle text-xl ${styles.logotext}`}>TAIKO</span> */}
           </div>
         </Link>
       </div>
