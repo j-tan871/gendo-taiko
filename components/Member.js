@@ -6,7 +6,7 @@ export default function Member(props) {
   return (
     <div class='mx-1 my-2 lg:mb-12 lg:mx-2'>
       <Image 
-        src={props.image}
+        src='/images/miyake_kelvmel.jpg'
         alt='member'
         width={150}
         height={200}
