@@ -16,7 +16,7 @@ export default function About() {
       <main>
         <div className={`h-auto ${styles.container}`}>
           <div className='flex flex-wrap overflow-hidden lg:px-20 lg:pt-20'>
-            <div className='w-full overflow-hidden p-12 lg:w-2/3 lg:px-32'>
+            <div className='w-full overflow-hidden p-12 lg:w-2/3 lg:px-12'>
               <div className={`text-3xl lg:text-5xl ${styles.heading}`}>WHAT IS GENDO TAIKO?</div>
               <div className={`leading-relaxed my-5 ${styles.bodytext}`}>
                 One of the earliest collegiate Taiko drumming groups established on the East Coast, Gendo Taiko was constituted at Brown University in the Fall of 2004 by Raiki Machida (Brown ’07) and Joshua Goldner (Brown ’05). Initially dubbed Brown Taiko, Gendo’s musical styles were originally based on those of Wadaiko Gensou, a semi-professional Taiko group based in Miyagi, Japan, with whom Machida had trained extensively. In the summer of 2006, Goldner and Machida hosted Wadaiko Gensou’s founding members Takao Handa and Satoko Nambu at Brown University to expand the group’s repertoire, hone its members’ techniques, and build a new set of drums. As the group grew in membership and developed its own unique musical styles and arrangements, it adopted a formal audition process, developed a Group Independent Study Project (GISP) to explore the history of Taiko, and is now in the course of developing a well-structured program of study for its members.
@@ -33,7 +33,7 @@ export default function About() {
             </div>
           </div>
           <div className='flex flex-wrap overflow-hidden lg:px-20 lg:pb-20'>
-            <div className='w-full overflow-hidden p-12 lg:w-2/3 lg:px-32'>
+            <div className='w-full overflow-hidden p-12 lg:w-2/3 lg:px-12'>
               <div className={`text-3xl lg:text-5xl ${styles.heading}`}>TAIKO IN AMERICA</div>
               <div className={`leading-relaxed my-5 ${styles.bodytext}`}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Arcu dui vivamus arcu felis bibendum ut tristique et. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Purus non enim praesent elementum. Mauris in aliquam sem fringilla ut.
@@ -47,7 +47,7 @@ export default function About() {
             </div>
             <div className={`w-full overflow-hidden pb-12 lg:pt-24 lg:w-1/3`}>
               <Image
-                src='/../public/images/about.jpg'
+                src='/images/about.jpg'
                 alt='miyake'
                 width={750}
                 height={450}
