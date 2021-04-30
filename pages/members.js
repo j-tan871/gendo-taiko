@@ -1,9 +1,7 @@
 import Head from 'next/head';
 
-import Navigation from '../components/Navbar';
 import Member from '../components/Member';
 import PastGeneration from '../components/PastGeneration';
-import Footer from '../components/Footer';
 import styles from '../styles/Members.module.css';
 
 export default function Members() {
@@ -13,7 +11,6 @@ export default function Members() {
         <title>Gendo Taiko - About Us</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <main>
       <div className={`${styles.container} p-5 lg:p-32`}>
         <h1 className={`${styles.heading} my-5`}>CURRENT MEMBERS</h1>
@@ -53,9 +50,6 @@ export default function Members() {
         </div>
       </div>
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   )
 }

@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import Navigation from '../components/Navbar';
-import Footer from '../components/Footer';
 import styles from '../styles/About.module.css';
 
 export default function About() {
@@ -12,7 +10,6 @@ export default function About() {
         <title>Gendo Taiko - About Us</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <main>
         <div className={`h-auto ${styles.container}`}>
           <div className='flex flex-wrap overflow-hidden lg:px-20 lg:pt-20'>
@@ -53,9 +50,6 @@ export default function About() {
           </div>
         </div>
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   )
 }

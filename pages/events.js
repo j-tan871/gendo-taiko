@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import Navigation from '../components/Navbar';
 import Event from '../components/Event';
-import Footer from '../components/Footer';
 import styles from '../styles/About.module.css';
 
 export default function Events() {
@@ -13,7 +11,6 @@ export default function Events() {
         <title>Gendo Taiko - Events</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <main>
         <div className={`${styles.container} p-5 lg:p-32`}>
           <h1 className={`${styles.heading} my-5`}>UPCOMING EVENTS</h1>
@@ -42,9 +39,6 @@ export default function Events() {
           </div>
         </div>
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   )
 }

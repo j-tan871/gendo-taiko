@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import Navigation from '../components/Navbar';
-import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -12,7 +10,6 @@ export default function Home() {
         <title>Gendo Taiko</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation></Navigation>
       <main>
         <div className='h-auto relative bg-black md:h-screen'>
           <Image
@@ -128,9 +125,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer>
-        <Footer></Footer>
-      </footer>
     </>
   )
 }
